@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    font-family: "roboto";
+    font-size: 24px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    text-align: end;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+header{
+    background-color: #1f2937;
+
+}
+
+h2{
+    color: #f9faf8;
+    margin: 0;
+}
+.headerLine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-two{
+    color: #f9faf8;
+
+}
+
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para-one{
+    color: #e5e7eb;
+    margin-bottom: 0;
+}
+
+button{
+    background-color: #3882e6;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.blank-img{
+    background-image: url(/img/pexels-kekremsi-8239819.jpg);
+    background-size: cover;
+    min-width: 450px;
+    max-width: 450px;
+    min-height: 240px;
+    height: 240px;
+    padding: 30px;
+    display: flex; 
+      
+}
+
+.wrapperTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerLine, 
+.wrapperTwo{
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.random-head{
+  font-weight: bolder;
+  font-size: 36px;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;  
+}
+
+.white{
+    border: 2px solid rgb(102, 102, 231);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.whitep{
+    width: 140px;
+    text-align: start;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.outside{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.section-wrapper{
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding: 100px;
+    font-size: 32px;
+    font-weight: light;
+
+}
+
+.quote{
+    width: 650px;
+    height: 100px;
+    margin-left: 100px;
+    text-align: start;
+    font-style: italic;
+}
+
+.quote-owner{
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+    margin-right: 60px;
+}
+
+.contact{
+    background-color: #3882e6;
+    color: white;
+    margin: 0;
+    padding: 40px;
+}
+
+.contact-wrapper{
+/* padding: 20px; */
+display: flex;
+justify-content: center;
+}
+
+h5{
+    margin: 0;
+}
+
+.contact-para{
+    margin: 0px;
+}
+
+.contactBtn{
+    border: 1.5px solid white;
+    padding: 0 10px;
+    display: flex;
+    justify-content: right;
+}
+
+footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.last-section{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+
+.last{
+    display: flex;
+    gap: 60px;
+}
